@@ -1,0 +1,24 @@
+/* style.css */
+
+.grid-pane {
+    -fx-background-color: BEIGE; /* Background color for the grid */
+    -fx-padding: 10;              /* Padding around the grid */
+    -fx-hgap: 5;                  /* Horizontal gap between elements */
+    -fx-vgap: 5;                  /* Vertical gap between elements */
+    -fx-alignment: center;        /* Aligns children nodes to the center */
+}
+
+.text-field, .password-field {
+    -fx-pref-width: 200px;       /* Preferred width for text fields */
+}
+
+.button {
+    -fx-background-color: #4CAF50; /* Green background for buttons */
+    -fx-text-fill: white;          /* White text color */
+    -fx-padding: 10px 20px;        /* Padding inside buttons */
+    -fx-font-size: 14px;           /* Font size for button text */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
